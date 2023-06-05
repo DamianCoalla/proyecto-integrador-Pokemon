@@ -1,0 +1,22 @@
+.barraBusqueda  {  
+    font-size: 15px;
+    height: 30px;
+    width: 90%;
+    border: none;       
+}
+
+.browserContainer  {
+    display: flex;
+    justify-content: center; 
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid black;
+    width: 90%;
+}
+
+input:focus {
+    outline: none;
+}
+.lupa {
+    height: 20px;
+}

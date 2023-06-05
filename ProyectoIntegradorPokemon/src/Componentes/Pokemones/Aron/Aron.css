@@ -1,0 +1,200 @@
+/* Globales */
+.texto {
+    font-size: 14px;
+    color: #212121;
+}
+.texto1{
+    font-size: 12px;
+    color: #666666;
+}
+
+.tarjeta    {
+    padding-left: 10px;
+    padding-right: 10px ;
+    
+    height: 100vh;
+}
+
+.background-imagen  {
+    background-image: url(/Imagenes/Pokeball.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 19px;
+    top: 12px;
+    z-index: 0;
+    height: 223px;
+    width: 203px;
+    opacity: 0.1;  
+}
+
+/* Header */
+.header-container   {
+    display: grid;
+    grid-template-areas: "bloque1 bloque2";
+    margin-bottom: 225px;
+    padding-top: 25px;
+}
+
+.nombre-pokemon {
+    color: white;
+}
+
+.pokemon-id {
+    color: white;
+}
+.boton-flecha   {
+    border-style: none;
+    background:none;
+}
+
+.bloque1    {
+    grid-area: bloque1;
+    display: flex;
+    margin-left: 20px;
+    gap: 10px
+    ;
+}
+
+.bloque2    {
+    grid-area: bloque2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+}
+
+/* Imagen pokemon */
+
+.imagen-pokemon {
+    position: absolute;
+    right: 20%;
+    top: 12%;
+    width: 250px;
+    height: 250px;
+}
+
+.main-container {
+  padding-top: 12px;
+    border-radius: 10px;
+    background-color: white;
+ height: 535px;
+
+}
+
+/* Pokemon Tipo */
+
+.tipoContenedor {
+
+border-radius: 15px;
+width: 80px;
+display: flex;
+justify-content: center;
+
+}
+
+.tipos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    gap: 12px;
+}
+
+/* About */
+
+.aboutContenedor    {
+   display: grid;
+   grid-template-areas: "about about about"
+   "weight1 height moves"
+    "textoweight textoheight textomoves" ;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.about {
+    grid-area: about;
+    justify-self: center;
+    align-self: center;
+    font-size: 25px
+}
+
+.weight  {
+    grid-area: weight1;
+        
+}
+
+.moves  {
+    grid-area: moves;
+}
+
+.height {
+    grid-area: height;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.height-texto   {
+   grid-area: textoheight;
+   justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.weight-texto   {
+    grid-area: textoweight;
+    justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.moves-texto    {
+    grid-area: textomoves;
+    justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.abaoutContenedor_divs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Pokemon descripcion */
+
+.articulo-descripcion   {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Base stats */
+
+.stats-flex {
+    display: flex;
+    gap: 10px
+}
+
+.progreso   {
+    width: 60%;
+        }
+
+.cajatexto  {
+    width: 70px;
+    border-right: 1px solid black;
+}
+
+.texto-atributo {
+    font-size: 20px;
+    text-align: end;
+    padding-right: 10px;
+    font-weight: 700;
+}
+
+.titulo-stats{
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
